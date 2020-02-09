@@ -21,7 +21,7 @@ public class Controller {
 
 
     public void onEnter(javafx.scene.input.KeyEvent keyEvent) {
-        if (keyEvent.getCode() == KeyCode.ENTER) send();
+        if  (keyEvent.getCode() == KeyCode.ENTER) send();
     }
 
     private void send() {
